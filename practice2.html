@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practice</title>
+    </head>
+    <body>
+        <h1 id="head">this is heading</h1>
+        <p>p1</p>
+<h2 class="heading">this is second heading</h2>
+<h3 class="heading">this is third heading</h3>
+<div class="container">
+    
+<p>this is paragraph</p>
+<p id="head-3">p2</p>
+<p class="head-1">p3</p>
+<p>p4</p>
+<p id="head-3">p5</p>
+<p class="head-1">p6</p>
+<p id="head-3">p7</p>
+<p>p8</p>
+<p class="h ead-1">p9</p>
+<p>p10</p>
+<p>p11</p>
+</div>
+<h5>this is 5th heading</h5>
+<h5>5th</h5>
+<!-- <h4 class="heading">this is forth heading</h4> -->
+    </body>
+</html>
+<script>
+    //var headval=document.getElementById("head")
+   // console.log(headval)
+//var heading1=document.getElementsByClassName("heading")
+//console.log(heading1)
+//var heading2=document.getElementsByTagName("h4");
+//console.log(heading2)
+var headval=document.querySelector("#head")
+console.log(headval)
+var heading1=document.querySelector(".heading")
+console.log(heading1)
+var para=document.querySelectorAll("p")
+console.log(para)
+var x=document.querySelector("#head-3")
+console.log(x)
+var y=document.querySelector(".head-1")
+console.log(y)
+// var z=document.getElementsByClassName("head-1")
+// console.log(z)
+var z=document.querySelectorAll("div+h5")
+console.log(z[0].innerText)
+</script>
